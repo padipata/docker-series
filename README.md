@@ -4,8 +4,8 @@
 
 <!-- TOC -->
 
-- [node.js](#node.js)
-- [vue.js](#vue)
+- [node.js](#nodejs)
+- [vue.js](#vuejs)
 
 <!-- /TOC -->
 
@@ -55,10 +55,10 @@ CMD npm run docker
 
 ```shell
 # 打包镜像
-docker build -t yipage/padipata .
+docker build -t yipage/padipata:alpine .
 
 # 运行镜像
-docker run -d -p 7001:7001 yipage/padipata
+docker run -d -p 7001:7001 yipage/padipata:alpine
 
 # 查看运行日志
 docker ps
@@ -74,7 +74,6 @@ docker rm {CONTAINER ID}
 docker rmi {IMAGE ID}
 ```
 
-
-
+## vue.js
 
 
